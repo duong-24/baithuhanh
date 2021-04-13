@@ -28,12 +28,12 @@
     right: 10px;
 }
 .header .timkiem input,button{
-    border: 1px solid #9082ec ;
-    background-color: rgb(76, 76, 163);
+    border: 1px solid #72a4dd ;
+    background-color: #1c3451;
     
 }
 .header,.menu{
-    background-color: darkslateblue;
+    background-color: #294E79;
     color: #fff;
 }
 a{
@@ -62,6 +62,65 @@ ul li a{
     margin-top: -6px;
 }
 .menu ul li a{
-    background-color: rgb(108, 121, 240);
+    background-color: #3D73B1;
     padding: 5px;
+}
+.conter-top .header h1,.menu p{
+    margin-left: 100px;
+}
+.body-botoom{
+    color: #6e737c;
+    width: 65%;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+.body-botoom h3{
+    margin-left: 0;
+    border-bottom: 2px dotted #6e737c;
+    padding-bottom: 10px;
+}
+.container1{
+    position:relative;
+    left: 15%;
+}
+.container-left{
+    width: 60%;
+    float: left;
+}
+.container-left> p{
+    padding-top: 10px;
+    text-shadow: 5px 5px 2px #45f045;
+    color: red;
+}
+
+.container-input{
+    display: inline-block;
+    margin-top: 15px;
+}.container-tex{
+    margin-top: 5px;
+}
+.container-right{
+    float: right;
+    width: 40%;
+}
+.container-p{
+    margin-top: 15px;
+}
+.container-button button{
+    border: 1px solid #6e737c;
+    background-color: #fff;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.body-botoom,.body-botoom1{
+    display: inline-block;
+}
+.body-botoom1{
+    width: 30%;
+    margin-left: 20px;
+    color: #6e737c;
+}
+.body-botoom1 h3{
+    
 }
